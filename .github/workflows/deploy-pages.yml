@@ -27,7 +27,6 @@ jobs:
         run: |
           cp -R dist github-pages-site
           find github-pages-site -type f -name '*.html' -exec sed -i \
-            -e 's|href="/"|href="/pattogatott-kukorica/"|g' \
             -e 's|href="/|href="/pattogatott-kukorica/|g' \
             -e 's|src="/|src="/pattogatott-kukorica/|g' {} +
       - uses: actions/upload-pages-artifact@v3
