@@ -6,7 +6,7 @@ Hungarian promotional catalogue for popcorn, cotton candy and popcorn machines.
 
 - Five individual product pages with image galleries.
 - Wholesale, machine enquiry and contact pages.
-- Three sourced educational articles and a source index.
+- Six sourced educational articles and a source index, including a research-led whole-grain and fibre section.
 - Responsive navigation, accessible gallery controls, native expandable product details, telephone links and directions.
 
 The deployable website is in `dist`. `node build.mjs` regenerates its HTML. `node preview.mjs` starts the local preview on http://127.0.0.1:4173.
