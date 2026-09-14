@@ -1,0 +1,4 @@
+const menu=document.querySelector('.menu');const navigation=document.querySelector('.links');
+menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));navigation.classList.toggle('open',open);menu.textContent=open?'Bezárás':'Menü';});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu){menu.setAttribute('aria-expanded','false');navigation.classList.remove('open');menu.textContent='Menü';}});
+document.querySelectorAll('[data-gallery]').forEach(button=>button.addEventListener('click',()=>{const target=document.querySelector('#product-photo');target.src=button.dataset.gallery;target.alt=button.dataset.detail==='true'?button.dataset.alt+' – nagyított részlet':button.dataset.alt;target.classList.toggle('detail-view',button.dataset.detail==='true');document.querySelectorAll('[data-gallery]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));}));
