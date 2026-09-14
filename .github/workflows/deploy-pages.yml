@@ -23,14 +23,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-      - name: Adapt absolute links for this GitHub Pages project
-        run: |
-          cp -R dist github-pages-site
-          find github-pages-site -type f -name '*.html' -exec sed -i \
-            -e 's|href="/|href="/pattogatott-kukorica/|g' \
-            -e 's|src="/|src="/pattogatott-kukorica/|g' {} +
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: github-pages-site
+          path: dist
       - id: deployment
         uses: actions/deploy-pages@v4

@@ -2,6 +2,7 @@ import {mkdirSync,writeFileSync,existsSync,copyFileSync} from 'node:fs';
 import path from 'node:path';
 const root='dist';
 copyFileSync('images/original/main kukorica.jpg',path.join(root,'assets','main-kukurica.jpeg'));
+copyFileSync('images/studio/pega-pop-hero.png',path.join(root,'assets','pega-pop-hero.png'));
 const sources=[
  ['Smithsonian Institution – Ancient Popcorn Discovered in Peru','https://www.si.edu/newsdesk/releases/ancient-popcorn-discovered-peru','2012. január 20. • Régészeti kutatásról szóló intézményi közlemény; a perui leletek és a kukorica korai felhasználása.'],
  ['Hagyományok, ízek, régiók – Kecskeméti pattogatni való kukorica','https://gi.kormany.hu/download/3/40/f0000/hagyom%C3%A1nyok_%C3%ADzek_r%C3%A9gi%C3%B3k.pdf','Magyar élelmiszer-örökségi gyűjtemény • A pesti piacok 1837-es említése és a „kakas” elnevezés. <a href="https://bockpince.torzsasztal.com/zoldsegek/pattogatnivalo-kukorica.html" target="_blank" rel="noopener noreferrer">A fejezet webes átirata ↗</a>'],
