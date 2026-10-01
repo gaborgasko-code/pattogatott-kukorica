@@ -7,9 +7,11 @@ Hungarian promotional catalogue for popcorn, cotton candy and popcorn machines.
 - Five individual product pages with image galleries.
 - Wholesale, machine enquiry and contact pages.
 - Six sourced educational articles and a source index, including a research-led whole-grain and fibre section.
-- Responsive navigation, accessible gallery controls, native expandable product details, contact links and directions.
+- Responsive navigation, accessible gallery controls, native expandable product details, a Formspree-backed contact form and directions.
 
 The deployable website is in `dist`. `node build.mjs` regenerates its HTML. `node preview.mjs` starts the local preview on http://127.0.0.1:4173.
+
+The contact form posts to Formspree. Its public endpoint ID is in `build.mjs`; the notification recipient is managed privately in the Formspree dashboard and is not included in the site files.
 
 ## Images
 
