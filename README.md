@@ -7,7 +7,7 @@ Hungarian promotional catalogue for popcorn, cotton candy and popcorn machines.
 - Five individual product pages with image galleries.
 - Wholesale, machine enquiry and contact pages.
 - Six sourced educational articles and a source index, including a research-led whole-grain and fibre section.
-- Responsive navigation, accessible gallery controls, native expandable product details, telephone links and directions.
+- Responsive navigation, accessible gallery controls, native expandable product details, contact links and directions.
 
 The deployable website is in `dist`. `node build.mjs` regenerates its HTML. `node preview.mjs` starts the local preview on http://127.0.0.1:4173.
 
@@ -19,6 +19,6 @@ The edits retain the recognizable products, packaging, main wording, colours and
 
 ## Commercial details still needed
 
-The owner supplied business name, address, telephone and product photos. Product weights, prices, ingredients, allergens, carton quantities, ordering minima, delivery terms, opening hours and machine makes/models/specifications have not been supplied. The site uses telephone enquiries for these details and makes no stock, certification or machine-performance promises. Cotton candy colours are not presented as verified flavour names.
+The owner supplied business name, address and product photos. Product weights, prices, ingredients, allergens, carton quantities, ordering minima, delivery terms, opening hours and machine makes/models/specifications have not been supplied. The site directs enquiries to the contact page for these details and makes no stock, certification or machine-performance promises. Cotton candy colours are not presented as verified flavour names.
 
 The articles discuss plain popcorn, not verified nutritional characteristics of Pega Pop's flavoured products. Each historical/scientific claim links to a source, with a bibliography at `/tudastar/forrasok/`.
